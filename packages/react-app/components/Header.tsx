@@ -3,7 +3,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link'; // Added import for Link
 
 // Add a prop to Header for setting the current view
-export default function Header({ setCurrentView }) {
+export default function Header() {
 	return (
 		<Disclosure as="nav" className="bg-yellow-400 border-b border-black">
 			{({ open }) => (
