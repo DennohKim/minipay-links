@@ -92,7 +92,7 @@ const ClaimPage = () => {
 							</div>
 						</>
 					) : (
-						<p className="text-lg my-4 font-bold">Success! You've claimed your paylink.</p>
+						<p className="text-lg my-4 font-bold">Success! You&apos;ve claimed your paylink.</p>
 					)}
 				</>
 			)}
